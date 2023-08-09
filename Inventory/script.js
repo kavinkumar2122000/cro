@@ -2,7 +2,7 @@ const mainContent = document.getElementById('main-content');
 
 async function getAllProducts() {
     try {
-        const response = await fetch('/api/products'); // Replace with your API endpoint
+        const response = await fetch('/api/products'); 
         const data = await response.json();
 
         const productList = document.createElement('div');
@@ -28,7 +28,7 @@ async function getAllProducts() {
             productList.appendChild(productItem);
         });
 
-        mainContent.innerHTML = ''; // Clear previous content
+        mainContent.innerHTML = ''; 
         mainContent.appendChild(productList);
 
     } catch (error) {
@@ -72,10 +72,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const addProductButton = document.querySelector('nav li:nth-child(2) a');
     if (addProductButton) {
         addProductButton.addEventListener('click', () => {
-            mainContent.innerHTML = ''; // Clear previous content
+            mainContent.innerHTML = ''; 
             mainContent.appendChild(addProductForm);
         });
     }
 
-    getAllProducts(); // Move this line inside the DOMContentLoaded event
+    getAllProducts(); 
 });

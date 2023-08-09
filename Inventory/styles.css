@@ -1,4 +1,4 @@
-/* styles.css */
+
 
 body {
     font-family: Arial, sans-serif;
@@ -26,8 +26,8 @@ main {
     margin-bottom: 1rem;
     padding: 1rem;
     border: 1px solid #ddd;
-    background-color: #f9f9f9; /* Added background color */
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Added box shadow */
+    background-color: #f9f9f9; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 ul {
@@ -43,20 +43,20 @@ p {
     margin: 0;
 }
 
-/* Reset some default styles and set a base font size */
+
 body, h1, h2, p {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
-/* Set a background color and text color for the body */
+
 body {
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Style the header */
+
 header {
     background-color: #333;
     color: #fff;
@@ -64,7 +64,7 @@ header {
     text-align: center;
 }
 
-/* Style the navigation */
+
 nav ul {
     list-style: none;
     display: flex;
@@ -82,7 +82,7 @@ nav ul li a {
     color: #fff;
 }
 
-/* Style the main content area */
+
 #main-content {
     max-width: 800px;
     margin: 2rem auto;
@@ -91,7 +91,7 @@ nav ul li a {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Style the product list */
+
 .product-list {
     display: grid;
     gap: 1rem;
@@ -104,7 +104,7 @@ nav ul li a {
     background-color: #f9f9f9;
 }
 
-/* Style the "Add Product" form */
+
 #add-product-form {
     max-width: 400px;
     margin: 2rem auto;
@@ -139,4 +139,20 @@ nav ul li a {
 #add-product-form button:hover {
     background-color: #555;
 }
+
+#add-product-form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    max-width: 400px;
+}
+
+#add-product-form label,
+#add-product-form input,
+#add-product-form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
 
